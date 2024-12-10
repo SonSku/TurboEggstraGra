@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://dqj5y5fi6sqrq"]
+
+[ext_resource type="Texture2D" uid="uid://bpsngsf7v5kq7" path="res://Assets/space_assets/background_1920x1080.png" id="1_kgs4d"]
+
+[node name="Wallpaper" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(961, 541)
+texture = ExtResource("1_kgs4d")
