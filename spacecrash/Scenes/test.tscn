@@ -1,4 +1,6 @@
-[gd_scene format=3 uid="uid://dhxa2reka1x0m"]
+[gd_scene load_steps=2 format=3 uid="uid://dhxa2reka1x0m"]
+
+[ext_resource type="Texture2D" uid="uid://co26xqc8iari8" path="res://Assets/space_assets/background_1920x1080.png" id="1_gk1s8"]
 
 [node name="Node2D" type="Node2D"]
 
@@ -7,3 +9,7 @@ layout_mode = 3
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
+
+[node name="Background1920x1080" type="Sprite2D" parent="."]
+position = Vector2(959, 542)
+texture = ExtResource("1_gk1s8")
