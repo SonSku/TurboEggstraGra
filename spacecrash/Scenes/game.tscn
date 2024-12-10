@@ -1,3 +1,21 @@
-[gd_scene format=3 uid="uid://c1781fek3s16"]
+[gd_scene load_steps=4 format=3 uid="uid://c1781fek3s16"]
+
+[ext_resource type="PackedScene" uid="uid://coll28s35t1rb" path="res://Scenes/main_character.tscn" id="1_e6b6b"]
+[ext_resource type="PackedScene" uid="uid://pasitt4va2e7" path="res://Scenes/floor.tscn" id="2_1jh5x"]
+[ext_resource type="Texture2D" uid="uid://bs04d5r6emqlp" path="res://Assets/space_assets/background_1920x1080.png" id="2_dnro1"]
 
 [node name="Game" type="Node2D"]
+
+[node name="Background1920x1080" type="Sprite2D" parent="."]
+position = Vector2(975, 541)
+texture = ExtResource("2_dnro1")
+
+[node name="floor" parent="." instance=ExtResource("2_1jh5x")]
+position = Vector2(970, 835)
+
+[node name="mainCharacter" parent="." instance=ExtResource("1_e6b6b")]
+position = Vector2(884, 531)
+
+[node name="Camera2D" type="Camera2D" parent="mainCharacter"]
+position = Vector2(88, 3)
+position_smoothing_enabled = true

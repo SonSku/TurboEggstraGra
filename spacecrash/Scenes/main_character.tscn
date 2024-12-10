@@ -14,8 +14,8 @@ animations = [{
 "speed": 5.0
 }]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_g3tfl"]
-size = Vector2(88, 182)
+[sub_resource type="CircleShape2D" id="CircleShape2D_hvsko"]
+radius = 64.0
 
 [node name="mainCharacter" type="CharacterBody2D"]
 script = ExtResource("1_effcn")
@@ -25,5 +25,5 @@ position = Vector2(67, 99)
 sprite_frames = SubResource("SpriteFrames_xp27p")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(77, 103)
-shape = SubResource("RectangleShape2D_g3tfl")
+position = Vector2(70, 134)
+shape = SubResource("CircleShape2D_hvsko")
