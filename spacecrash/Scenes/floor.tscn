@@ -1,6 +1,6 @@
-[gd_scene load_steps=3 format=3 uid="uid://cghev1aeuwobs"]
+[gd_scene load_steps=3 format=3 uid="uid://pasitt4va2e7"]
 
-[ext_resource type="Texture2D" uid="uid://clikltakjflnh" path="res://Assets/space_assets/floor_1920x88.png" id="1_ksk2l"]
+[ext_resource type="Texture2D" uid="uid://bsvhku3ba1wce" path="res://Assets/space_assets/floor_1920x88.png" id="1_ksk2l"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ftwbh"]
 size = Vector2(1920, 87)
