@@ -1,0 +1,32 @@
+[gd_scene load_steps=5 format=3 uid="uid://coll28s35t1rb"]
+
+[ext_resource type="Texture2D" uid="uid://ctpmqk683vq8n" path="res://Assets/kenney_1-bit-pack/Tilesheet/colored-transparent.png" id="1_ad3qw"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v3sft"]
+atlas = ExtResource("1_ad3qw")
+region = Rect2(408, 0, 17, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_xp27p"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_v3sft")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ojpry"]
+radius = 53.3385
+
+[node name="mainCharacter" type="CharacterBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(85, 79)
+scale = Vector2(10, 10)
+sprite_frames = SubResource("SpriteFrames_xp27p")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(81, 101)
+shape = SubResource("CircleShape2D_ojpry")
