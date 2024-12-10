@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://b3c8366s1vnrp"]
+
+[ext_resource type="Texture2D" uid="uid://ch026gmx1s0p7" path="res://Assets/space_assets/spaceship_498x938.png" id="1_o8wdi"]
+
+[node name="rocket" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_o8wdi")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+polygon = PackedVector2Array(-138, 272, -113, 327, -2, 349, 108, 332, 141, 276, 181, 351, 188, 465, 230, 362, 245, 271, 240, 220, 218, 183, 154, 156, 166, -15, 143, -162, 89, -319, -1, -464, -77, -341, -144, -162, -162, -23, -153, 168, -155, 156, -219, 188, -238, 215, -243, 268, -230, 354, -189, 465, -179, 357)
