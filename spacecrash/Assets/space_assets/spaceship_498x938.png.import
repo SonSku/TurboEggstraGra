@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
 uid="uid://bj230bak8kdw0"
+=======
+uid="uid://co7uehv8ov7rs"
+>>>>>>> 7bb39dab45a5468e1cba4ae8eec2f9b6e64a3a35
 path="res://.godot/imported/spaceship_498x938.png-60a6cce4e570d7935b73614472cf45cc.ctex"
 metadata={
 "vram_texture": false
