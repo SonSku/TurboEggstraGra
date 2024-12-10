@@ -1,7 +1,7 @@
-[gd_scene load_steps=4 format=3 uid="uid://cyfh26tm4t78x"]
+[gd_scene load_steps=4 format=3 uid="uid://ctbso52nay7x8"]
 
 [ext_resource type="Script" path="res://Scripts/resource_node.gd" id="1_gdigi"]
-[ext_resource type="Texture2D" uid="uid://cjjuyf62kbs8u" path="res://Assets/space_assets/rock.jpg" id="1_pk3sa"]
+[ext_resource type="Texture2D" uid="uid://cuh07pl3bduhc" path="res://Assets/space_assets/rock.jpg" id="1_pk3sa"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_pdee3"]
 size = Vector2(559, 262)

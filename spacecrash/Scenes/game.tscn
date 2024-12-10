@@ -1,9 +1,10 @@
-[gd_scene load_steps=5 format=3 uid="uid://c1781fek3s16"]
+[gd_scene load_steps=6 format=3 uid="uid://c1781fek3s16"]
 
 [ext_resource type="PackedScene" uid="uid://coll28s35t1rb" path="res://Scenes/main_character.tscn" id="1_e6b6b"]
 [ext_resource type="PackedScene" uid="uid://pasitt4va2e7" path="res://Scenes/floor.tscn" id="2_1jh5x"]
 [ext_resource type="Texture2D" uid="uid://bs04d5r6emqlp" path="res://Assets/space_assets/background_1920x1080.png" id="2_dnro1"]
-[ext_resource type="PackedScene" path="res://Scenes/resource_node.tscn" id="4_e8yhj"]
+[ext_resource type="PackedScene" uid="uid://ctbso52nay7x8" path="res://Scenes/resource_node.tscn" id="4_e8yhj"]
+[ext_resource type="PackedScene" uid="uid://s5q6xouc38f7" path="res://Scenes/oxygen.tscn" id="5_04ls4"]
 
 [node name="Game" type="Node2D"]
 
@@ -24,3 +25,5 @@ position_smoothing_enabled = true
 [node name="ResourceNode" parent="." instance=ExtResource("4_e8yhj")]
 position = Vector2(1304, 528)
 script = null
+
+[node name="Oxygen" parent="." instance=ExtResource("5_04ls4")]
