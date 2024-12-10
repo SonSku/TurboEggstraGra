@@ -10,6 +10,7 @@ size = Vector2(559, 262)
 script = ExtResource("1_gdigi")
 
 [node name="Area2D" type="Area2D" parent="."]
+disable_mode = 1
 
 [node name="Rock" type="Sprite2D" parent="Area2D"]
 position = Vector2(104, 128)

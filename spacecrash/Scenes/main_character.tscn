@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://coll28s35t1rb"]
 
 [ext_resource type="Script" path="res://Scripts/main_character.gd" id="1_effcn"]
-[ext_resource type="Texture2D" uid="uid://ce2j5jol1j036" path="res://Assets/space_assets/astronaut_131x197.png" id="2_fg118"]
+[ext_resource type="Texture2D" uid="uid://c3t5r5l7jq276" path="res://Assets/space_assets/astronaut_131x197.png" id="2_fg118"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_xp27p"]
 animations = [{

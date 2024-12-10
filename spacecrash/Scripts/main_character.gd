@@ -5,6 +5,10 @@ const SPEED = 600.0
 const JUMP_VELOCITY = -400.0
 @onready var animated_sprite_2d: AnimatedSprite2D = $AnimatedSprite2D
 
+func _ready() -> void:
+	print("Hello")
+	SignalManager.collected_resource.connect(on_collected_res)
+
 
 func _process(delta: float) -> void:
 	# Add the gravity.
@@ -29,3 +33,6 @@ func _process(delta: float) -> void:
 		velocity.x = move_toward(velocity.x, 0, SPEED)
 
 	move_and_slide()
+
+func on_collected_res(res, am):
+	print(res, am)
