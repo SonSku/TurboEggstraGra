@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://cyfh26tm4t78x"]
 
-[ext_resource type="Script" path="res://Scenes/resource_node.gd" id="1_gdigi"]
+[ext_resource type="Script" path="res://Scripts/resource_node.gd" id="1_gdigi"]
 [ext_resource type="Texture2D" uid="uid://cjjuyf62kbs8u" path="res://Assets/space_assets/rock.jpg" id="1_pk3sa"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_pdee3"]
